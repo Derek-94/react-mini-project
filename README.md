@@ -2,4 +2,4 @@
 
 #### ALL BY MYSELF
 
-Maybe.. about time measuring application, with location based info.
+Maybe.. about time measuring application, with location based info..
