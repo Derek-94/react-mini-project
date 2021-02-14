@@ -1,5 +1,6 @@
 import React from "react"
 import Location from "./Location"
+import Weather from "./Weather"
 
 export default class Geolocation extends React.Component {
     state = {
@@ -34,6 +35,10 @@ export default class Geolocation extends React.Component {
             ) : (
                 <div className = "geolocation">
                     <Location 
+                        lon = {this.state.longitude}
+                        lat = {this.state.latitude}
+                    />
+                    <Weather 
                         lon = {this.state.longitude}
                         lat = {this.state.latitude}
                     />
