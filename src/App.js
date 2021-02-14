@@ -1,10 +1,10 @@
 import './App.css';
-import Location from "./components/Location"
+import Geolocation from "./components/Geolocation"
 
 function App() {
   return (
     <div className = "location-data">
-      <Location />
+      <Geolocation />
     </div>
   );
 }
