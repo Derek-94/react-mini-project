@@ -11,11 +11,10 @@ export default class Weather extends React.Component {
                     </div>
                 ) : (
                     <div>
-                        {console.log(this.props.data)}
-                        <p>🌡️ in {this.props.data.name} is {this.props.data.main.temp} celsius.</p>
-                        <p>Feels like {this.props.data.main.feels_like} celsius.</p>
-                        <p>Today 🌡️ max : {this.props.data.main.temp_max} celsius , min : {this.props.data.main.temp_min} celsius.</p>
-                        <p>💦 Humidity : {this.props.data.main.humidity}%</p>
+                        <div>🌡️ in {this.props.data.name} is {this.props.data.main.temp} celsius.</div>
+                        <div>Feels like {this.props.data.main.feels_like} celsius.</div>
+                        <div>Today 🌡️ max : {this.props.data.main.temp_max} celsius , min : {this.props.data.main.temp_min} celsius.</div>
+                        <div>💦 Humidity : {this.props.data.main.humidity}%</div>
                     </div>
                 )}
             </div>
